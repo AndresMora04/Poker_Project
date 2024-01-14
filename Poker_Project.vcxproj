@@ -130,7 +130,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DeckOfCards.cpp" />
     <ClCompile Include="Poker_Project.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeckOfCards.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
